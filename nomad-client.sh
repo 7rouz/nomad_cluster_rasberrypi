@@ -5,7 +5,7 @@ NOMAD_SERVER_IP=$1
 PORT_NUMBER=$2
 
 cd /tmp
-wget https://releases.hashicorp.com/nomad/0.8.6/nomad_0.8.6_linux_arm64.zip
+wget https://releases.hashicorp.com/nomad/0.8.6/nomad_0.8.6_linux_arm.zip
 unzip nomad_0.8.6_linux_arm64.zip
 sudo mv nomad /usr/bin/nomad
 rm -f nomad_0.8.6_linux_arm64.zip
